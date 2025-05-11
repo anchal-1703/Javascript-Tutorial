@@ -1,0 +1,1 @@
+// currying is used when function use inner function
