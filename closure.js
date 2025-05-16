@@ -23,10 +23,10 @@ outerFunction(); // [Function: innerFunction]
 function show(){
 let name = "John Doe"; // private variable
  return{
-    show: function(){
+    show(){
         console.log(name); // Accessing private variable
     },
-    setName: function(newName){
+    setName(newName){
         name = newName; // Modifying private variable
     }
  }
